@@ -8,11 +8,11 @@ namespace Movies.Database
 {
     public class Database
     {
+        //List of movies
         private List<Movie> Movies = new List<Movie>
         {
             new Movie {Id = 0, Title="dsfd", RunningTimeInMins=500, StudioId=0},
             new Movie {Id = 1, Title="slkie", RunningTimeInMins=560, StudioId=1}
-            // https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/object-and-collection-initializers
         };
 
         private List<Studio> Studios = new List<Studio>
